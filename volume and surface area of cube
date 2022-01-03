@@ -1,0 +1,12 @@
+#include<stdio.h> 
+#include <math.h>  
+int main(){ 
+   int s,volume,sa;
+   printf("enter the value of s");
+   scanf("%d",&s);
+   volume=s*s*s;
+   sa=6*(s*s);
+   printf("%d",volume);
+    printf("\n%d",sa);
+     return 0;
+    }
