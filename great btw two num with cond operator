@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main(){ 
+ int a,b;
+ printf("enter the values of a and b");
+ scanf("%d%d",&a,&b);
+ (a>b)?printf("%dis great",a):printf("%d is great",b);
+     return 0;
+    }
