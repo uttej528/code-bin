@@ -1,0 +1,9 @@
+#include<stdio.h> 
+int main(){ 
+ int a,b,c,big;
+ printf("enter the values of a and b,c");
+ scanf("%d%d",&a,&b,&c);
+big= (a>b)?printf("%dis great",a):printf("%d is great",b);
+big=(big>c)?printf("%dis great",big):printf("%dis great",c);
+     return 0;
+    }
