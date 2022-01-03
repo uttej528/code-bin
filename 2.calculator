@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+  int a,b,sum,sub,mul,div,rem,n;
+  printf("enter the values of a and b");
+  scanf("%d%d",&a,&b);
+  printf("enter 1 to perform addition\n");
+  printf("enter 2 to perform subtraction\n");
+  printf("enter 3 to perform multiplication\n");
+  printf("enter 4 to perform division\n");
+  printf("enter 5 to perform reminder\n");
+  scanf("%d",&n);
+  switch(n){
+      case 1:sum=a+b;
+             printf("%d",sum);
+            break;
+      case 2:sub=a-b;
+          printf("%d",&sub);
+          break;
+          
+      case 3: mul=a*b;
+              printf("%d",mul);
+              break;
+     case 4: div=a/b;
+              printf("%d",div);
+               break;
+     case 5: rem=a%b;
+              printf("%d",rem);
+              break;
+        default :printf("enter valid number");      
+      }
+  
+    
+    return 0;
+}
