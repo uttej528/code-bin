@@ -1,0 +1,10 @@
+#include<stdio.h> 
+#include <math.h>  //area of trapezium
+int main(){ 
+   int h,a,b,area;
+   printf("enter the values of a,b ad h");
+   scanf("%d%d%d",&a,&b,&h);
+   area=0.5*h*(a+b);
+   printf("area of trapezium is %d",area);
+     return 0;
+    }
