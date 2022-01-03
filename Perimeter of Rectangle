@@ -1,0 +1,10 @@
+#include<stdio.h> 
+#include <math.h>  //perimeter of rectangle
+int main(){ 
+   int b,h,peri;
+   printf("enter the values of b ad h");
+   scanf("%d%d",&b,&h);
+   peri=2*(b+h);
+   printf("perimeter of rectangle is %d",peri);
+     return 0;
+    }
