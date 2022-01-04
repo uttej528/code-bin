@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{ int l,b,h,volume,sa;
+printf("enter the values of l,b,h");
+scanf("%d%d%d",&l,&b,&h);
+volume=l*b*h;
+printf("%d",volume);
+sa=(2*l*b)+(2*b*h)+(2*h*l);
+printf("\n%d",sa);
+  
+
+    return 0;
+}
