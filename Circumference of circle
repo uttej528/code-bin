@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{ int r,circ;
+printf("enter the value of r");
+scanf("%d",&r);
+circ=2*3.14*r;
+printf("%d",circ);
+
+  
+
+    return 0;
+}
