@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{ int i,avg,n; int sum=0;
+int mark;
+printf("enter value of n");
+scanf("%d",&n);
+
+for(i=1;i<=n;i++)
+{ printf("enter the value of mark");
+    scanf("%d",&mark);
+    
+    sum=sum+mark;
+}
+printf("%d",sum);
+avg=sum/n;
+printf("\n%d",avg);
+
+    return 0;
+}
