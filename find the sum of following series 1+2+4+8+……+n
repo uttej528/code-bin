@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<math.h>
+//sum of following series  1+2+4+8+……+n
+int main()
+{
+  int i,n,k;int sum=0; int x=2;
+  printf("enter the value of n");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+      k=pow(x,i);
+      sum=sum+k;
+      
+      
+      
+  }
+  
+printf("%d",sum);
+      
+  
+ return 0;
+}
