@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,k,rem;int count=0;
+    printf("enter the value of n");
+    scanf("%d",&n);
+     printf("enter the number to check frequency of number");
+    scanf("%d",&k);
+    
+    while(n!=0){
+    rem=n%10;
+    if(rem==k)
+    {
+        count=count+1;
+    }
+    n=n/10;
+    }
+    printf("the frequency is %d",count);
+return 0;
+    
+}
