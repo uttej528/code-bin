@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{ int a,*ptr;
+printf("enter the value of a");
+scanf("%d",&a);
+printf("%d",a);
+ptr=&a;
+*ptr=50;
+printf("\n%d",a);
+    
+return 0;
+
+}
