@@ -1,0 +1,24 @@
+//neon number
+#include<stdio.h>
+int main(){
+    int n,s,rem,sum=0;
+    printf("enter the value of n");
+    scanf("%d",&n);
+    s=n*n;
+    
+    while(s!=0){
+        rem=s%10;
+        sum=sum+rem;
+        s=s/10;
+        }
+    
+    if(sum==n){
+        
+        
+        printf("it ia a neon number");
+    }else{
+        
+        printf("it is not a neon number");
+        
+    }
+    
