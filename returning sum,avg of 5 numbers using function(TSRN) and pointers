@@ -1,0 +1,31 @@
+
+
+
+
+#include <stdio.h>
+void fun (int *f, int *g, int *h, int *i, int *j, int *sum1, int *avg1);
+int
+main ()
+{
+  int a, b, c, d, e, avg, sum;
+  printf ("enter the values ");
+  scanf ("%d%d%d%d%d", &a, &b, &c, &d, &e);
+  fun (&a, &b, &c, &d, &e, &sum, &avg);
+  printf ("%d\n", sum);
+  printf ("%d\n", avg);
+  return 0;
+}
+
+void
+fun (int *f, int *g, int *h, int *i, int *j, int *sum1, int *avg1)
+{
+
+  *sum1 = *f + *g + *h + *i + *j;
+  *avg1 = *sum1 / 5;
+
+
+
+
+
+
+}
