@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{ int n,s,rem;
+ printf("enter the value of n");
+ scanf("%d",&n);
+ 
+s=n*n;
+rem=s%10;
+
+if(rem==n){
+    
+    
+    printf("it is automorphic");
+    
+}else{
+    
+    printf("it is not automorphic");
+}
